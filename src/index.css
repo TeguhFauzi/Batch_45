@@ -1,13 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: black !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: #1f1f1f;
+
+  width: 100%;
+  padding: 15px;
+}
+.navbaritem {
+  display: flex;
+  width: 100%;
+  margin: 0 30px;
+  justify-content: space-between;
+}
+.butNav {
+  display: flex;
+  align-items: center;
+}
+.butNav a {
+  border: none;
+  margin: 0 10px;
+  color: white !important;
+  cursor: pointer;
+  text-decoration: none;
+}
+.on {
+  font-weight: 800 !important;
+}
+.nav button {
+  border: none;
+  margin: 0 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  font-weight: 600 !important;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.regLog {
+  display: flex;
+  justify-content: space-between;
+}
+.reg {
+  background: white !important;
+  color: red !important;
+  padding: 0 25px !important;
+  margin: 0 5px;
+  border-radius: 7px;
+}
+.log {
+  background: red !important;
+  color: white !important;
+  padding: 0 30px !important;
+  margin: 0 5px;
+  border-radius: 7px;
+}
+.userss {
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+}
+.userss img {
+  cursor: pointer;
+}
+.userss p {
+  font-size: 16px;
+  display: flex !important;
+  margin: 0 15px 0 0 !important;
+  align-items: center !important;
+  font-weight: bolder !important;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.backgrounds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+.backgrounds div {
+  display: flex;
+  justify-content: center;
+  width: 100% !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.thewitch {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 700px;
+  justify-content: center;
+}
+.thewitch img {
+  display: block;
+}
+.thewitch button {
+  border: none;
+  cursor: pointer;
+  padding: 20px 60px;
+  border-radius: 5px;
+  background: #e50914;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.thewitch div {
+  height: 60px;
+}
+.thewitch a {
+  border: none;
+  cursor: pointer;
+  padding: 20px 60px;
+  border-radius: 5px;
+  background: #e50914;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+}
+.years {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-style: normal;
+}
+.year {
+  margin-right: 15px;
+}
+
+.tvsi {
+  color: white;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.tvs {
+  padding: 3px 15px;
+  border: 1px solid !important;
+  border-radius: 4px;
+  display: flex;
+  border: none;
+  color: white;
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 20px;
+}
+.titleimg {
+  margin-bottom: 20px;
+}
+.mark {
+  position: absolute;
+  width: 1489px;
+  height: 202px;
+  left: -140px;
+  top: 624px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -92.86%, #000000 60.83%);
+  background-blend-mode: hard-light;
+  filter: blur(25px);
+}
+
+.black {
+  background: #000000;
+}
+.tvseries {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 30px;
+  padding: 0 50px;
+}
+.wrap {
+  flex-wrap: wrap;
+  padding: 70px 0 0 20px;
+}
+
+.pad {
+  /* padding: 0 20px; */
+  display: flex;
+  justify-content: center;
+}
+.padss {
+  /* padding: 0 20px; */
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  color: white;
+}
+
+.cardx {
+  border: none !important;
+  color: white;
+  padding: 8px !important;
+  width: 190px;
+}
+.cardx button {
+  background: none;
+  border: none !important;
+  width: 190px;
+  height: 261px;
+  color: white;
+  text-align: left;
+}
+.cardx img {
+  width: 100%;
+}
+.cardx-title {
+  font-weight: bolder;
+  margin: 0 auto;
+}
+.cardx-text {
+  opacity: 70%;
+  margin-bottom: 20px;
+}
+.center {
+  width: 100% !important;
+}
+.series {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+.series a {
+  text-decoration: none;
+}
+.cardtext {
+  color: #ffffff;
+}
+.bord {
+  margin: 50px auto;
+}
+
+.modal-content {
+  background: #1f1f1f !important;
+  color: white !important;
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  border-top: none !important;
+}
+.form-control {
+  background: #d2d2d2 !important;
+}
+
+.regist {
+  width: 100% !important;
+  background: #ffffff !important;
+  color: #e50914 !important;
+  font-weight: 900 !important;
+}
+.login {
+  width: 100% !important;
+  background: #e50914 !important;
+  color: #ffffff !important;
+  font-weight: 900 !important;
+}
+.dropdown-container {
+  position: absolute;
+  top: relative;
+  right: 45px;
+}
+.poly {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.poly img {
+  width: 20px;
+}
+.dropdown {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 200px;
+  background-color: #1f1f1f;
+  z-index: 1;
+}
+.bottomm {
+  display: flex;
+}
+.bottomm div {
+  width: 50%;
+}
+.bottoms {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.rights {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 25px;
+}
+.absol img {
+  padding: 0;
+  margin-left: 6px;
+}
+
+.rights img {
+  width: 100%;
+  padding: 0px 20px;
+  height: 290px;
+}
+div .lefting {
+  width: 50%;
+  padding: 25px;
+  display: flex;
+}
+.context {
+  margin: 0 30px;
+  color: #ffffff;
+}
+
+.context h1 {
+  display: flex;
+  font-weight: bolder;
+  margin: 0 0 30px 0;
+}
+.yires {
+  display: flex;
+  align-items: center;
+}
+.yiresa {
+  margin: 0;
+}
+.movs {
+  border: 1px solid;
+  margin: 0 15px;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+.descir {
+  margin: 20px 0;
+}
+.rights i {
+  color: #e50914;
+  font-size: 25px;
+}
+.profilesz {
+  display: flex !important;
+  width: 500px;
+}
+.profilesz .cardb {
+  display: flex !important;
+}
+.cardb {
+  color: #ffffff;
+  padding: 20px;
+}
+.cardb ul {
+  width: 300px !important;
+}
+
+.cardb ul li {
+  background: #1f1f1f !important;
+  border: none !important;
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+
+.list-group-item .texty {
+  margin: 0 10px;
+  display: block;
+  color: white;
+}
+
+.texty h3 {
+  font-size: 15px;
+  margin: 0;
+}
+
+.texty p {
+  font-size: 10px;
+  margin: 0;
+}
+
+.card-body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.btn.btn-danger {
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+.flexx {
+  display: flex !important;
+  justify-content: center;
+  margin: 25px 0;
+}
+div .cardb {
+  width: 400px !important;
+  /* height: 500px!important; */
+}
+.colour {
+  display: flex;
+  background: #1f1f1f;
+}
+img.card-img-top {
+  height: 300px !important;
+  border-radius: 4px;
+}
+
+.dropdown a {
+  width: 100%;
+  background: #1f1f1f;
+  display: block;
+  padding: 12px 16px;
+}
+.dropdown a:hover {
+  background-color: rgb(161, 242, 10);
+  padding: 12px 16px;
+  border: none;
+}
+.profiles img {
+  padding: 5px;
+}
+
+.userx {
+  width: 83px;
+}
+.pay {
+  width: 78px;
+}
+.logx {
+  width: 83px;
+}
+
+/* //Paymen */
+.centered {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  color: #ffffff;
+  align-items: center;
+}
+.centered h2 {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.centered h1 {
+  margin: 0 5px;
+  align-items: center;
+  display: flex;
+
+  color: #e50914;
+}
+
+.centeredx {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  color: #ffffff;
+  align-items: center;
+}
+.centeredx p {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.centeredx h1 {
+  margin: 0 5px;
+  align-items: center;
+  display: flex;
+  font-size: 17px;
+  color: #e50914;
+}
+.centeredz {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.centeredz input {
+  width: 300px;
+  background: #1f1f1f !important;
+}
+.centeredz label.btn.btn-danger {
+  width: 300px !important;
+  margin: 0 !important;
+  background-color: #ffffff;
+  color: #e50914;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+}
+.centeredz label.btn.btn-danger i {
+  font-size: 22px;
+  color: #e50914;
+}
+.centereda {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.centereda label.btn.btn-danger {
+  background-color: #e50914;
+  color: #ffffff;
+  width: 300px !important;
+}
+
+.clicks button {
+  border: none;
+  background: #1f1f1f;
+}
+.linknya{
+  display: flex; align-items: center; justify-content: center;
+}
+
+.linknya i {
+  position: absolute;
+  font-size: 50px;
+
+}
+.buttpin{
+background: none;
+border: none;
 }

@@ -1,0 +1,211 @@
+{
+    "TV": {
+      "tv1": {
+        "url":"",
+        "id": 1,
+        "image": "satu",
+        "name": "The Witcher",
+        "year": "2019"
+      },
+      "tv2": {
+        "url":"",
+        "id": 2,
+        "image": "dua",
+        "name": "Persona 3 The Movie",
+        "year": "2016"
+      },
+      "tv3": {
+        "url":"",
+        "id": 3,
+        "image": "tiga",
+        "name": "Game Of Thrones",
+        "year": "2011"
+      },
+      "tv4": {
+        "url":"",
+        "id": 4,
+        "image": "empat",
+        "name": "Money Heist",
+        "year": "2017"
+      },
+      "tv5": {
+        "url":"",
+        "id": 5,
+        "image": "lima",
+        "name": "Touch",
+        "year": "2020"
+      },
+      "tv6": {
+        "url":"",
+        "id": 6,
+        "image": "enam",
+        "name": "Arrow",
+        "year": "2012"
+      },
+      "tv7": {
+        "url":"",
+        "id": 7,
+        "image": "tujuh",
+        "name": "You",
+        "year": "2018"
+      },
+      "tv8": {
+        "url":"",
+        "id": 8,
+        "image": "delapan",
+        "name": "Castlevania",
+        "year": "2017"
+      },
+      "tv9": {
+        "url":"",
+        "id": 8,
+        "image": "sembilan",
+        "name": "The OA",
+        "year": "2016"
+      },
+      "tv10": {
+        "url":"",
+        "id": 9,
+        "image": "sepuluh",
+        "name": "Locke & Key",
+        "year": "2020"
+      },
+      "tv11": {
+        "url":"",
+        "id": 11,
+        "image": "sebelas",
+        "name": "Reply 1988",
+        "year": "2015"
+      },
+      "tv12": {
+        "url":"",
+        "id": 12,
+        "image": "duabel",
+        "name": "Panji Manusia Milenium",
+        "year": "1999"
+      }
+    },
+    "MV": {
+      "Movie1": {
+        "url":"https://www.youtube.com/watch?v=mJLWydHPkMw",
+        "href":"http://104.237.198.198/nonton-the-godfather-sub-indo/",
+        "id": 1,
+        "play":"godfat",
+        "image": "mv1",
+        "name": "The GodFather",
+        "year": "1972",
+        "description":"The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son."
+      },
+      "Movie2": {
+        "url":"https://www.youtube.com/watch?v=xGcfBRkJSWQ",
+        "href":"https://tv.lk21official.live/dark-knight-2008/",
+        "id": 2,
+       "play":"masjuk", 
+        "image": "mv2",
+        "name": "The Dark Knight",
+        "year": "2008",
+        "description": "The plot follows the vigilante Batman, police lieutenant James Gordon, and district attorney Harvey Dent, who form an alliance to dismantle organized crime in Gotham City. "
+      },
+      "Movie3": {
+        "url":"https://www.youtube.com/watch?v=rrGMENN1iaY",
+        "href":"http://104.237.198.198/nonton-avengers-endgame-sub-indo/play/?ep=2&sv=1",
+        "id": 3,
+        "play":"avi", 
+        "image": "mv3",
+        "name": "Avengers : Endgame",
+        "year": "2019",
+        "description": "In the opening, Clint Barton is teaching his daughter archery on his secluded farm while his wife prepares a picnic lunch for them."
+      },
+      "Movie4": {
+        "url":"https://www.youtube.com/watch?v=A6bftX-IUOo",
+        "href":"https://185.53.88.162/joker-2019/play/?ep=2&sv=1",
+        "id": 4,
+        "play":"jokerplay",
+        "image": "mv4",
+        "name": "Joker",
+        "year": "2019",
+        "description": "Joaquin Phoenix as Arthur Fleck / Joker: A mentally ill, impoverished party clown and stand-up comedian disregarded by society."
+      },
+      "Movie5": {
+        "url":"https://www.youtube.com/watch?v=w_0KJAzyUJc",
+        "href":"http://104.237.198.198/nonton-parasite-sub-indo/play/?ep=2&sv=1",
+        "id": 5,
+        "play":"gis", 
+        "image": "mv5",
+        "name": "Gisaengchung",
+        "year": "2019",
+        "description": "The Kims - mother and father Chung-sook and Ki-taek, and their young adult offspring, son Ki-woo and daughter Ki-jung - are a poor family living in a shabby and cramped half basement apartment."
+      },
+      "Movie6": {
+        "url":"https://www.youtube.com/watch?v=s9APLXM9Ei8",
+        "href":"http://104.237.198.198/series/chernobyl-series-sub-indo/watch/",
+        "id": 6,
+        "play":"cery", 
+        "image": "mv6",
+        "name": "Chernobyl",
+        "year": "2019",
+        "description": "The Chernobyl accident in 1986 was the result of a flawed reactor design that was operated with inadequately trained personnel."
+      },
+      "Movie7": {
+        "url":"https://www.youtube.com/watch?v=xBjY0ooUp_8",
+        "href":"http://104.237.198.198/nonton-film-serigala-terakhir-2009/play/?ep=2&sv=1",
+        "id": 7,
+        "play":"ss", 
+        "image": "mv7",
+        "name": "Serigala Terakhir",
+        "year": "2009",
+        "description": "Alex was just released from prison for his past mistake. Now, all he wanted is to lead a better life."
+      },
+      "Movie8": {
+        "url":"https://www.youtube.com/watch?v=S2P0DqJSHaY",
+        "href":"http://104.237.198.198/hotaru-no-haka-1988/play/?ep=2&sv=1",
+        "id": 8,
+        "play":"gf", 
+        "image": "mv8",
+        "name": "Grave of The Fireflies",
+        "year": "1988",
+        "description": "A young boy and his little sister struggle to survive in Japan during World War II."
+      },
+      "Movie9": {
+        "url":"https://www.youtube.com/watch?v=92a7Hj0ijLs",
+        "href":"http://104.237.198.198/my-neighbor-totoro-1988/play/?ep=2&sv=1",
+        "id": 9,
+        "play":"tot", 
+        "image": "mv9",
+        "name": "My Neighbor Totoro",
+        "year": "1988",
+        "description": "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous."
+      },
+      "Movie10": {
+        "url":"https://www.youtube.com/watch?v=uORdU2rJt1E",
+        "href":"http://104.237.198.198/a-quiet-place-part-ii-2020/play/?ep=2&sv=1",
+        "id": 10,
+        "play":"aqp", 
+        "image": "mv10",
+        "name": "A Quiet Place: Part II",
+        "year": "2020",
+        "description": "Following the events at home, the Abbott family now face the terrors of the outside world."
+      },
+      "Movie11": {
+        "url":"https://www.youtube.com/watch?v=nrZxwPwmgrw",
+        "href":"http://104.237.198.198/frozen-2-sub-indo/",
+        "id": 11,
+        "play":"frozen2", 
+        "image": "mv11",
+        "name": "Frozen II",
+        "year": "2019",
+        "description": "When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter."
+      },
+      "Movie12": {
+        "url":"https://www.youtube.com/watch?v=YnNVHfOsSiU",
+        "href":"http://104.237.198.198/nonton-film-suicide-squad-sub-indo/play/?ep=2&sv=1",
+        "id": 12,
+        "play":"suis", 
+        "image": "mv12",
+        "name": "Suicide Squad",
+        "year": "2016",
+        "description": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse."
+      }
+    }
+  }
+  
